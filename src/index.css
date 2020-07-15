@@ -2,7 +2,6 @@
   color: white;
 }
 .sidebar {
-  margin-right: 78px;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
@@ -16,4 +15,7 @@
   position: absolute;
   font-size: 2rem;
   right: 6px;
+}
+.image-home:hover {
+  font-size: 2.2rem;
 }

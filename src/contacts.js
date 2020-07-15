@@ -41,11 +41,11 @@ export default class Contacts extends Component {
           colorr="white"
         />
         <SideBar
-          title="my Resume"
-          type="instagram"
+          title="Resume"
+          type="user"
           color="#013e3e"
           colorr="white"
-          link="https://docs.google.com/document/d/1waWefUkx0N8ujd9GaoyCsMS1uVaiG4cr1xEOSJ3NnIc/edit?usp=sharing"
+          link="https://drive.google.com/file/d/1HNFiDVDzhVMlHCZlI0j-FLtKUV9ZxX5I/view?usp=sharing"
         />
 
         <Line colors="#0096ec"></Line>

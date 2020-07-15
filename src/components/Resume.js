@@ -152,6 +152,9 @@ class Another extends React.Component {
           <div style={{ fontSize: 32, color: "white", textAlign: "center" }}>
             UX/UI Developer
           </div>
+          <div style={{ fontSize: 25, color: "white", textAlign: "center" }}>
+            Scroll down to see more details
+          </div>
         </Profile>
 
         <ResumeSections>

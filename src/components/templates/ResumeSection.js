@@ -12,9 +12,8 @@ const ResumeHeading = styled.div`
   padding: 2px;
   transform: skewy(-6deg);
   width: 165px;
-  margin: 10px;
+  margin-top: 14px;
   text-align: center;
-  float: right;
 `;
 
 const SectionWrapper = styled.div`
@@ -22,18 +21,13 @@ const SectionWrapper = styled.div`
   width: 100vw;
   scroll-snap-align: start;
   color: white;
-
-  .shadow {
-    box-shadow: inset 0px 0px 65px 0px #1890ff;
-    padding: 10px 50px;
-  }
 `;
 
-const ResumeSection = props => {
+const ResumeSection = (props) => {
   return (
     <SectionWrapper>
       <Row className="animated zoomIn">
-        <Col span={2} offset={3} style={{ textAlign: "right" }}>
+        <Col span={2} style={{ textAlign: "right" }}>
           {props.icon && (
             <Avatar
               className="animated pulse infinite"
@@ -42,14 +36,14 @@ const ResumeSection = props => {
                 backgroundImage: `url(${props.icon})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
-                boxShadow: "0px 0px 35px rgba(1, 1, 1, 1)"
+                boxShadow: "0px 0px 35px rgba(1, 1, 1, 1)",
               }}
             />
           )}
           <ResumeHeading>{props.heading}</ResumeHeading>
         </Col>
 
-        <Col offset={1} span={14} className="shadow">
+        <Col offset={2} span={17}>
           <Section>{props.children}</Section>
         </Col>
       </Row>

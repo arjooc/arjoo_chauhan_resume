@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.scss";
+import "./index.css";
 import "./animate.css";
-import Another from "./components/Resume";
+import ResumeMain from "./resume_main";
 
-ReactDOM.render(<Another />, document.getElementById("root"));
+ReactDOM.render(<ResumeMain />, document.getElementById("root"));

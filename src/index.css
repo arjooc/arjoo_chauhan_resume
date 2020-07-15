@@ -1,0 +1,19 @@
+.show-title {
+  color: white;
+}
+.sidebar {
+  margin-right: 78px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-top: 20px;
+  position: absolute;
+  left: 95%;
+}
+
+.image-home {
+  color: black;
+  position: absolute;
+  font-size: 2rem;
+  right: 6px;
+}

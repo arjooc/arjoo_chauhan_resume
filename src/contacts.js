@@ -40,6 +40,14 @@ export default class Contacts extends Component {
           color="#0096ec"
           colorr="white"
         />
+        <SideBar
+          title="my Resume"
+          type="instagram"
+          color="#013e3e"
+          colorr="white"
+          link="https://docs.google.com/document/d/1waWefUkx0N8ujd9GaoyCsMS1uVaiG4cr1xEOSJ3NnIc/edit?usp=sharing"
+        />
+
         <Line colors="#0096ec"></Line>
       </div>
     );

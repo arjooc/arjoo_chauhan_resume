@@ -152,14 +152,6 @@ class Another extends React.Component {
           <div style={{ fontSize: 32, color: "white", textAlign: "center" }}>
             UX/UI Developer
           </div>
-          <div style={{ fontSize: 32, color: "white", textAlign: "center" }}>
-            <a
-              href="https://drive.google.com/file/d/14lHt4Q-2HOJ89XznyGYl0Y0tRpeJt5ue/view?usp=sharing"
-              target="_blank"
-            >
-              Click to view my Resume
-            </a>
-          </div>
         </Profile>
 
         <ResumeSections>
@@ -310,27 +302,14 @@ class Another extends React.Component {
                     marginRight: 10,
                   }}
                 >
-                  -UX technology​:
+                  -UI technology​:
                 </span>
                 <span style={{ color: "white", fontSize: 28 }}>
-                  Adobe illustrator, Adobe XD, Figma. 
+                  - ReactJS , Javascript , HTML, CSS , Responsive web design , 
+                  Styled components , Antd , Bootstrap, Flexbox, SASS, 
+                  Tailwind...(meant to keep increasing..) 
                 </span>
                 <br></br>
-              </div>
-
-              <div style={{ paddingTop: 30 }}>
-                <span
-                  style={{
-                    color: "#0096ec",
-                    fontSize: 32,
-                    marginRight: 16,
-                  }}
-                >
-                  Hardware Design:
-                </span>
-                <span style={{ color: "white", fontSize: 28 }}>
-                  Verilog, VHDL, MATLAB Modules: Raspberry Pi, Arduino UNO
-                </span>
               </div>
 
               <div style={{ paddingTop: 30 }}>
@@ -441,7 +420,7 @@ class Another extends React.Component {
                       marginRight: 20,
                     }}
                   >
-                    -- Projects
+                    --Pet Projects
                   </span>
                   <span
                     style={{
@@ -454,7 +433,7 @@ class Another extends React.Component {
                     }}
                   >
                     {" "}
-                    From school till present
+                    Jan 2020 to July 2020
                   </span>
                   <p style={{ fontSize: 20 }}>
                     1. "My resume ":- You are looking at it :)
@@ -472,6 +451,31 @@ class Another extends React.Component {
                     <br></br>
                     Technologies worked on​ - Adobe illustration
                   </p>
+                </div>
+                <div>
+                  <span
+                    style={{
+                      color: "#0096ec",
+                      fontSize: 30,
+                      marginRight: 20,
+                    }}
+                  >
+                    -- College Projects
+                  </span>
+                  <span
+                    style={{
+                      backgroundColor: "#1890ff",
+                      color: "white",
+                      fontSize: 13,
+                      padding: 2,
+                      transform: "skewy(-6deg)",
+                      margin: 11,
+                    }}
+                  >
+                    {" "}
+                    2018 to 2019
+                  </span>
+
                   <p style={{ fontSize: 20 }}>
                     4. Based on simple screen content sharing which can later be
                     used for references at any time
@@ -493,7 +497,7 @@ class Another extends React.Component {
           )}
 
           {this.state.visibleScrollmore && (
-            <ResumeSection icon={interest} heading="My interests">
+            <ResumeSection icon={interest} heading="Hobbies and Achievements">
               <div
                 style={{
                   backgroundColor: "#1890ff",
@@ -509,7 +513,7 @@ class Another extends React.Component {
                 Hobbies
               </div>
               <div style={{ color: "white", fontSize: 28 }}>
-                Calligraphy , Drawing Dancing , Indoor and Outdoor games like
+                Calligraphy , Drawing , Dancing , Indoor and Outdoor games like
                 Kho-Kho, Badminton, Carrom, Pool, etc.
               </div>
               <div
@@ -528,6 +532,7 @@ class Another extends React.Component {
               </div>
               <div style={{ color: "white", fontSize: 28 }}>
                 <span> - Played Kho-Kho regionals.</span>
+                <br></br>
                 <span>
                   - Secured 1st position in Fashion show, Dancing, Drawing and
                   Treasure Hunt
